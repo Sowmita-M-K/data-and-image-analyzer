@@ -1,0 +1,39 @@
+  body { background-color: #f4f6fb; color: #1f2430; font-family: 'Segoe UI', sans-serif; }
+  .center-box { max-width: 420px; margin: 80px auto; padding: 32px; background: #ffffff;
+                border-radius: 16px; box-shadow: 0 8px 24px rgba(30,40,70,0.08); text-align: center;
+                border: 1px solid #e7eaf3; }
+  #splash_div { height: 100vh; display: flex; align-items: center; justify-content: center;
+                flex-direction: column; background: linear-gradient(135deg, #eef2fb, #ffffff); }
+  .splash-logo { font-size: 48px; font-weight: 800; color: #2f6fed;
+                 background: linear-gradient(90deg, #2f6fed, #7c5cf5);
+                 background-clip: text; -webkit-background-clip: text;
+                 -webkit-text-fill-color: transparent; }
+  .splash-sub { color: #6b7280; margin-top: 8px; }
+  .form-control { background-color: #ffffff !important; color: #1f2430 !important;
+                  border: 1px solid #d9dfec !important; }
+  .btn-primary { background: linear-gradient(90deg, #2f6fed, #7c5cf5) !important;
+                 border: none !important; font-weight: 600; }
+  .btn-primary:hover { opacity: 0.9; }
+  .sidebar-nav { background-color: #ffffff; min-height: 100vh; padding-top: 24px;
+                 border-right: 1px solid #e7eaf3; }
+  .sidebar-link { display: block; padding: 12px 20px; color: #5b6270; text-decoration: none;
+                  cursor: pointer; border-left: 3px solid transparent; }
+  .sidebar-link:hover { background-color: #f4f6fb; color: #1f2430; }
+  .sidebar-link.active { border-left: 3px solid #2f6fed; background-color: #eef2fb; color: #2f6fed;
+                          font-weight: 600; }
+  .app-title { font-weight: 800; font-size: 20px; padding: 0 20px 20px 20px; color: #2f6fed;
+               background: linear-gradient(90deg, #2f6fed, #7c5cf5);
+               background-clip: text; -webkit-background-clip: text;
+               -webkit-text-fill-color: transparent; }
+  .card { background-color: #ffffff; border-radius: 14px; padding: 20px; margin-bottom: 20px;
+          box-shadow: 0 2px 10px rgba(30,40,70,0.06); border: 1px solid #e7eaf3; }
+  .stat-box { background-color: #ffffff; border-radius: 14px; padding: 18px; text-align: center;
+              border: 1px solid #e7eaf3; }
+  .stat-number { font-size: 26px; font-weight: 800; color: #2f6fed; }
+  .stat-label { color: #6b7280; font-size: 13px; }
+  .insight-box { background-color: #eef2fb; border-radius: 12px; padding: 16px 20px;
+                 border-left: 4px solid #2f6fed; margin-top: 4px; }
+  .insight-box ul { margin: 0; padding-left: 18px; }
+  .insight-box li { margin-bottom: 6px; color: #333a48; }
+  h2, h3, h4 { color: #1f2430; }
+  .main-content { padding: 30px; }
